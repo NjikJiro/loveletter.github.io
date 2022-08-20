@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Digital Love Letter</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("I love you <3")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=450
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=450
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=500
+            Bn.style.left=166
+            flag=4
+        }
+    else if(flag==4)
+        {
+            Bn.style.top=500
+            Bn.style.left=310
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1 style="font-family: Arial, Helvetica, sans-serif;"> Hello There :D ! <h1>
+<img alt="EvilicaCell" src="https://c.tenor.com/9Wy9gr5kuT8AAAAC/adorable-love-bear.gif" height="200" />
+<h1 style="font-family: Arial, Helvetica, sans-serif;">We would make a great couple</h1>
+<h1 style="font-family: Arial, Helvetica, sans-serif;">Do you want to be mine?</h1>
+<div id="By" style="position:absolute; left:64px; top:400px; width:210px;
+height:210px;">
+<input type="button" value=" Mau Dong" onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:400px; width:210px; height:210px;">
+<input type="button" value=" Ngga Mau" onMouseOver="f()" />
+</div>
+
+</body>
+</html>
